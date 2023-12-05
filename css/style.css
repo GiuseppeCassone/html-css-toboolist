@@ -16,12 +16,14 @@ header{
 }
 
 #logo{
-    padding: 20px;
+    height: 100px;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 h1{
     display: inline-block;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -33,9 +35,15 @@ main{
     margin: auto;
     margin-top: 40px;
     background-color: white;
+    border-radius: 20px;
 }
 
+
 /* inizio sezione button */
+
+
+
+
 #prima-sezione{
     height: 50px;
     border-bottom: 1px solid lightgrey;
@@ -43,6 +51,9 @@ main{
     padding-left: 20px;
 }
 
+#contenitore{
+    padding: 20px;
+}
 
 #task{
     height: 30px;
@@ -65,11 +76,15 @@ main{
 }
 
 /* inizio sezione new task */
+div{
+    margin-bottom: 10px;
+}
+
 .freccia{
     font-size: small;
 }
 
-#editorial{
+.editorial{
     display: inline-block;
     width: 60px;
     height: 25px;
@@ -85,3 +100,36 @@ small{
     padding: 5px;
 }
 /* fine sezione new task */
+
+/* inizio sezione today */
+#goals{
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(153, 0, 255);
+    color: white;
+}
+
+#recruiting{
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(0, 255, 0);
+    color: white;
+}
+
+#mobile{
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+
+}
+/* fine sezione today */
