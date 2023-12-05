@@ -40,20 +40,13 @@ main{
 
 
 /* inizio sezione button */
-
-
-
-
 #prima-sezione{
     height: 50px;
     border-bottom: 1px solid lightgrey;
     line-height: 50px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
-#contenitore{
-    padding: 20px;
-}
 
 #task{
     height: 30px;
@@ -72,11 +65,13 @@ main{
 /* fine sezione button */
 
 #contenitore{
-    padding: 20px 20px;
+    padding: 30px 30px;
+    font-size: 18px;
 }
 
 /* inizio sezione new task */
 div{
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -133,3 +128,27 @@ small{
 
 }
 /* fine sezione today */
+
+/* inizio upcoming */
+#website{
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(255, 0, 238);
+    color: white;
+}
+
+#sales{
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(50, 183, 24);
+    color: white;
+}
+
+
+/* fine upcoming */
