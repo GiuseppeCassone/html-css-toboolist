@@ -38,7 +38,7 @@ main{
 /* inizio sezione button */
 #prima-sezione{
     height: 50px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     line-height: 50px;
     padding-left: 20px;
 }
@@ -59,3 +59,29 @@ main{
     color: grey;
 }
 /* fine sezione button */
+
+#contenitore{
+    padding: 20px 20px;
+}
+
+/* inizio sezione new task */
+.freccia{
+    font-size: small;
+}
+
+#editorial{
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    
+}
+
+small{
+    padding: 5px;
+}
+/* fine sezione new task */
