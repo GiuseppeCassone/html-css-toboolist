@@ -79,6 +79,11 @@ div{
     font-size: small;
 }
 
+.check{
+    color: rgb(27, 233, 27);
+    margin-right: 5px;
+}
+
 .editorial{
     display: inline-block;
     width: 60px;
@@ -105,6 +110,10 @@ small{
     padding: 2px;
     background-color: rgb(153, 0, 255);
     color: white;
+}
+
+.cross{
+    color: red;
 }
 
 #recruiting{
