@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(238, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* inizio header */
@@ -24,9 +25,7 @@ header{
 #title{
     display: inline-block;
     margin-top: 20px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: 20px;    
 }
 /* aggiustare */
 
@@ -59,9 +58,9 @@ main{
 
 #add-section{
     height: 30px;
-    border: grey;
+    border: 1px solid #d4d8dc;
     border-radius: 5px;
-    color: grey;
+    color: #d4d8dc;
 }
 /* fine sezione button */
 
@@ -72,28 +71,54 @@ main{
 
 /* inizio sezione new task */
 div{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+h2{
+    margin-bottom: 20px;
+}
+
 
 .freccia{
     font-size: small;
 }
 
-.check{
-    color: rgb(27, 233, 27);
-    margin-right: 5px;
+ul{
+    padding: 0;
+    list-style-type: none;
 }
+
+li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.check{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    border: #63bfa7 1px solid;
+    border-radius: 50%;
+
+    color: #63bfa7;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+
 
 .editorial{
     display: inline-block;
-    width: 65px;
+    width: 75px;
     height: 25px;
     margin-left: 5px;
     border-radius: 8px;
     padding: 2px;
     background-color: rgb(0, 145, 255);
     color: white;
+    font-size: 0.9em;
+    text-align: center;
     
 }
 
@@ -111,6 +136,8 @@ small{
     padding: 2px;
     background-color: rgb(153, 0, 255);
     color: white;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 .cross{
@@ -125,6 +152,8 @@ small{
     padding: 2px;
     background-color: rgb(0, 255, 0);
     color: white;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 #mobile{
@@ -135,6 +164,8 @@ small{
     padding: 2px;
     background-color: rgb(255, 136, 0);
     color: white;
+    font-size: 0.9em;
+    text-align: center;
 
 }
 /* fine sezione today */
@@ -148,6 +179,8 @@ small{
     padding: 2px;
     background-color: rgb(255, 0, 238);
     color: white;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 #sales{
@@ -158,6 +191,8 @@ small{
     padding: 2px;
     background-color: rgb(50, 183, 24);
     color: white;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 
